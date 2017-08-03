@@ -1,6 +1,35 @@
-#calculator * {font-size: 16px;}
-	#calculator table {border: solid 3px silver; border-spacing: 3px; background-color: #EEE; }
-	#calculator table td {border-spacing: 3px;}
-	input.display {width: 166px; text-align: right;}
-	td.buttons {border-top: solid 1px silver;}	
-	input[type= button] {width: 40px; height: 30px;}
+#calc {
+    background: #abc;
+    padding: 20px;
+    font-size: 0;
+    width: 300px;
+    margin: 100px auto 0px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+
+input[name="calc"] {
+    border: 1px solid #abc;
+    border-radius: 10px 10px 0 0;
+    font-size: 32px;
+    width: 100%;
+    display: block;
+    margin: 0px 0px 10px 0;
+    box-sizing: border-box;
+    padding: 5px;
+}
+button {
+    border: 2px solid #abc;
+    font-size: 32px;
+    width: 25%;
+    
+}
+
+button:nth-last-child(4) {
+    border-radius: 0 0 0 10px; 
+}
+
+button:last-child {
+    border-radius: 0 0 10px 0; 
+}
+}
